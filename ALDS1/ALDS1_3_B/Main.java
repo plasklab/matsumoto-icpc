@@ -9,8 +9,8 @@ public class Main{
     scan = new Scanner(System.in);
     int n = scan.nextInt();
     int q = scan.nextInt();
-    String[] nameQueue = new String[N_MAX + 1];
-    int[] timeQueue = new int[N_MAX + 1];
+    String[] nameQueue = new String[N_MAX];
+    int[] timeQueue = new int[N_MAX];
     int head = 0;
     int tail = n;
     for(int i = 0; i < n; i++) {
