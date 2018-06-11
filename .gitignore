@@ -1,2 +1,7 @@
 .DS_Store
+*_*.java
 *.class
+in*
+out**
+re**
+*6*
